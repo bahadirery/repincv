@@ -1,6 +1,16 @@
 # Investigating the Impact of Randomness in Reproducibility in Computer Vision
 This repository contains the source code of master's thesis titled "Investigating the Impact of Randomness in Reproducibility in Computer Vision: A Study on Applications in Civil Engineering and Medicine "
 
+## Abstract
+
+**Purpose**: Reproducibility stands as a cornerstone in scientific research. However, in the realm of computer vision, achieving consistent results is challenging due to various factors, with CUDA-induced randomness being a prominent one. Despite CUDA's capability to facilitate high-performance execution of computer vision algorithms on GPUs, it lacks determinism across multiple runs. This thesis delves into the aftermath of CUDA-induced variability on reproducibility to understand its nature better, focusing on diverse datasets: CIFAR for image classification, a dataset pertaining to civil engineering for concrete crack detection, and a medical dataset centered on breast cancer diagnosis.
+
+**Methods**: To discern the influence of CUDA randomness, we thoroughly controlled other potential variability sources, including weight initialization, data shuffling, and data augmentation. This allowed us to exclusively study the effects of CUDA randomness by comparing outcomes over several runs, both in deterministic and non-deterministic CUDA settings. Additionally, an in-depth analysis of model weights was conducted to offer insights into the internal workings of the models, further corroborating our findings.
+
+**Results**: Our empirical investigations revealed that while achieving full determinism is feasible, it occasionally comes at the expense of performance. Interestingly, model sensitivity to CUDA randomness varied with different configurations and settings. Upholding the principles of responsible research, we also delineate the environmental implications of our experiments, emphasizing the associated carbon footprint.
+
+**Conclusion**: This thesis provides a rigorous evaluation of CUDA randomness and its implications on various computer vision applications. By doing so, it contributes to the advancement of reproducible research in computer vision by providing a systematic and comprehensive evaluation of CUDA randomness and its effects on different computer vision tasks and domains. Furthermore, we give recommendations to guide future research endeavors. The complex relationship between GPU utilization and the inherent randomness in Deep Learning requires further exploration.
+
 
 # Reproducing Results for Thesis
 
@@ -10,9 +20,9 @@ This repository contains the code used in the thesis. Below are the datasets use
 
 The datasets used in this thesis are:
 
-- **CIFAR-10 Dataset:** [Link to dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
-- **SDNET2018 Dataset:** [Link to dataset](https://digitalcommons.usu.edu/all_datasets/48/)
-- **CBIS-DDSM:** [Link to dataset](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=22516629)
+- **CIFAR-10 Dataset:** (https://www.cs.toronto.edu/~kriz/cifar.html)
+- **SDNET2018 Dataset:** (https://digitalcommons.usu.edu/all_datasets/48/)
+- **CBIS-DDSM:** (https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=22516629)
 
 ## Code Organization
 
