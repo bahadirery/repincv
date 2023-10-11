@@ -1,0 +1,9 @@
+DEVICE: cuda
+OUTPUT_BASE: task_3/outputs
+RUN_NAME: s314_SGD_True
+TASK: CBIS-DDSM mammography
+VERSION: '0.1'
+backends: true
+optimizer_fn: SGD
+seed: 314
+numepochs: 40

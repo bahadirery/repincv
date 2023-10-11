@@ -1,0 +1,9 @@
+DEVICE: cuda
+OUTPUT_BASE: task_3/outputs
+RUN_NAME: s42_ADAM_False_1
+TASK: CBIS-DDSM mammography
+VERSION: '0.1'
+backends: false
+optimizer: Adam
+seed: 42
+numepochs: 45

@@ -1,0 +1,9 @@
+DEVICE: cuda
+OUTPUT_BASE: task_3/outputs
+RUN_NAME: s3407_ADAM_True
+TASK: CBIS-DDSM mammography
+VERSION: '0.1'
+backends: true
+optimizer: Adam
+seed: 3407
+numepochs: 40

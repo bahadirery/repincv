@@ -1,0 +1,25 @@
+DEVICE: cuda
+INPUT_BASE: not_used
+OUTPUT_BASE: task2/outputs
+RUN_NAME: s0_SGD_False_1
+TASK: SDNET 2018 Concrete Crack Detection
+VERSION: '0.1'
+backends: false
+best_accuracy: 0.0
+learning_rate: 0.0075
+lr: 0.0075
+max_epochs: 50
+model_name: Mobilenet_v3_large
+momentum: 0.9
+nesterov: true
+num_classes: 2
+num_workers: 1
+optimizer: SGD
+patience: 100
+resume: false
+scheduler: lrdecay
+seed: 0
+start_epoch: 0
+test_batch_size: 1
+tr_batch_size: 256
+weight_decay: 0.0005
