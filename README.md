@@ -20,9 +20,9 @@ This repository contains the code used in the thesis. Below are the datasets use
 
 The datasets used in this thesis are:
 
-- **CIFAR-10 Dataset:** (https://www.cs.toronto.edu/~kriz/cifar.html)
-- **SDNET2018 Dataset:** (https://digitalcommons.usu.edu/all_datasets/48/)
-- **CBIS-DDSM:** (https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=22516629)
+- **CIFAR-10 Dataset:** [University of Toronto's CIFAR page](https://www.cs.toronto.edu/~kriz/cifar.html)
+- **SDNET2018 Dataset:** [Utah State University's digital commons page](https://digitalcommons.usu.edu/all_datasets/48/)
+- **CBIS-DDSM:** [Cancer Imaging Archive wiki](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=22516629)
 
 ## Code Organization
 
