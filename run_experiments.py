@@ -15,8 +15,9 @@ if 'task1' in args.tasks:
     base_cmd = ["python3", "task1/src/main.py", "--config"]
 
     # Loop through config files
-    for i in range(1, 61):
-        config_file = f"task1/configs/task1/cfg_{i:02}.yaml"
+    for i in range(1, 111):  # Adjusted range to go up to 110
+        # Adjusted format string to handle up to three digits
+        config_file = f"task1/configs/task1/cfg_{i:03}.yaml"
         cmd = base_cmd + [config_file]
         
         # Print the current config file and timestamp
@@ -39,7 +40,7 @@ if 'task1' in args.tasks:
 if 'task2' in args.tasks:
     # Run the initial setup scripts once
     setup_scripts = [
-        #"task2/src/download_and_extract.py",
+        "task2/src/download_and_extract.py",
         "task2/src/prepare_data.py"
     ]
 
@@ -60,8 +61,8 @@ if 'task2' in args.tasks:
     base_cmd = ["python3", "task2/src/train.py", "--config"]
 
     # Loop through config files
-    for i in range(1, 61):
-        config_file = f"task2/configs/task2/cfg_{i:02}.yaml"
+    for i in range(1, 111):
+        config_file = f"task2/configs/task2/cfg_{i:03}.yaml"
         cmd = base_cmd + [config_file]
         
         # Print the current config file and timestamp
