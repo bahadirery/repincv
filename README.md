@@ -40,7 +40,12 @@ These datasets are automatically downloaded if they are not present in the input
 
 ### Breast Cancer Imaging
 
-This dataset needs to be downloaded manually due to its large size and placed in the input directory. For preprocessing, please refer to this repository.
+Due to the large size of the dataset, it needs to be **downloaded manually** and placed in the `input` directory.
+
+For preprocessing the dataset, you can utilize the `image_cleaning.py` script. The algorithm for this script was developed by:
+
+> **M.Sc Shreyasi Pathak**  
+> PhD student at Twente University
 
 ### Using Weights & Biases (WandB) for Tracking
 
