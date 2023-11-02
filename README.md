@@ -1,6 +1,7 @@
 # Investigating the Impact of Randomness in Reproducibility in Computer Vision
 This repository contains the source code of master's thesis titled "Investigating the Impact of Randomness in Reproducibility in Computer Vision: A Study on Applications in Civil Engineering and Medicine "
 
+Note: The repository move to https://github.com/mcmi-group/repincv. Please refer to that repository as this one will not get any update in the future!
 ## Abstract
 
 **Purpose**: Reproducibility stands as a cornerstone in scientific research. However, in the realm of computer vision, achieving consistent results is challenging due to various factors, with CUDA-induced randomness being a prominent one. Despite CUDA's capability to facilitate high-performance execution of computer vision algorithms on GPUs, it lacks determinism across multiple runs. This thesis delves into the aftermath of CUDA-induced variability on reproducibility to understand its nature better, focusing on diverse datasets: CIFAR for image classification, a dataset pertaining to civil engineering for concrete crack detection, and a medical dataset centered on breast cancer diagnosis.
